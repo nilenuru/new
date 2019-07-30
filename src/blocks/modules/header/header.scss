@@ -1,0 +1,92 @@
+.container_page {
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.page-main {
+	background-image: url('../img/Back_intro.jpg');
+	background-size: cover;
+	height: 1000px;
+	margin: 0 auto;
+	text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header__wrapper {
+  padding-top: 64px;
+  display: flex;
+  width: auto;
+  height: 40px;
+  line-height: 17px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header__logo {
+  text-transform: uppercase;
+  display: flex;
+  width: 220px;
+}
+
+.logo_text {
+  font-weight: 700;
+  margin-left: 10px;
+
+}
+
+.logo__text--item {
+  font-weight: 400;
+}
+
+.header-nav {
+	display: flex;
+
+	margin-left: 226px;
+	justify-content: space-between;
+}
+.header-list {
+  font-family: "Montserrat - Semi Bold";
+  font-size: 14px;
+  line-height: 26px;
+
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+	flex-direction: row;
+	padding-right: 25px;
+}
+
+.header-list__item {
+  padding-left: 50px;
+}
+
+.intro {
+	font-size: 28px;
+  line-height: 26px;
+}
+.intro__item {
+  color: #ef5b5b;
+  font-family: 'Tangerine', cursive;
+ 
+  &--save {
+    font-family: "Montserrat - Semi Bold";
+    font-weight: 400;
+    font-size: 41px;
+  }
+
+  &--price {
+    font-family: Montserrat;
+    
+  }
+}
+
+.button {
+	width: 150px;
+	background-color: #ef5b5b;
+	border-radius: 5px;
+	box-shadow: none;
+	text-decoration: none;
+	border: none;
+	color: white;
+}
