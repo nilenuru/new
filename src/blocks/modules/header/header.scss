@@ -1,92 +1,100 @@
-.container_page {
-	width: 1500px;
-	margin: 0 auto;
+
+.header {
+  background-image: linear-gradient(-53deg, #00b8d4 0%, #1de9b6 100%), url('../img/back/back_image.jpg');
+  background-color: #061e37;
+  opacity: 0.9;
+ color: #fff;
 }
 
-.page-main {
-	background-image: url('../img/Back_intro.jpg');
-	background-size: cover;
-	height: 1000px;
-	margin: 0 auto;
-	text-transform: uppercase;
-  list-style: none;
-  text-decoration: none;
-}
-
-.header__wrapper {
-  padding-top: 64px;
+.wrap {
+  @include wrapper;
   display: flex;
-  width: auto;
-  height: 40px;
-  line-height: 17px;
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 176px;
 }
 
-.header__logo {
-  text-transform: uppercase;
+.logo {
+  width: 180px;
   display: flex;
-  width: 220px;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__img {
+    width: 30px;
+  }
+  &__desk {
+    width: 140px;
+  }
 }
 
-.logo_text {
-  font-weight: 700;
-  margin-left: 10px;
+.page-nav {
+  padding-right: 332px;
+  padding-left: 320px;
 
+  &__list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;  
+  }
+
+  &__item {
+    padding-left: 50px;
+  }
 }
 
-.logo__text--item {
-  font-weight: 400;
-}
-
-.header-nav {
-	display: flex;
-
-	margin-left: 226px;
-	justify-content: space-between;
-}
-.header-list {
-  font-family: "Montserrat - Semi Bold";
-  font-size: 14px;
-  line-height: 26px;
-
-  display: flex;
-  list-style: none;
-  text-decoration: none;
-	flex-direction: row;
-	padding-right: 25px;
-}
-
-.header-list__item {
-  padding-left: 50px;
+.page-nav__input {
+  a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 2px;
+  }
 }
 
 .intro {
-	font-size: 28px;
-  line-height: 26px;
+  @include wrapper;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.intro__item {
-  color: #ef5b5b;
-  font-family: 'Tangerine', cursive;
- 
-  &--save {
-    font-family: "Montserrat - Semi Bold";
-    font-weight: 400;
-    font-size: 41px;
-  }
 
-  &--price {
-    font-family: Montserrat;
+.intro__desk {
+  width: 580px;
+  padding-right: 260px;
+  font-family: "Raleway - Extra Bold";
+    h1 {
+      font-size: 55px;
+      line-height: 65px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    p {
+     
+      font-size: 18px;
+      line-height: 35px;
+      font-weight: 400;
+    }
+    .button-bl {
+      margin-right: 30px;
+      width: 155px;
+      background-color: #061e37;
+    }
     
-  }
+    .button-wh {
+      width: 160px;
+      background-color: #ffffff;
+      color: #061e37;
+    }
+
 }
 
-.button {
-	width: 150px;
-	background-color: #ef5b5b;
-	border-radius: 5px;
-	box-shadow: none;
-	text-decoration: none;
-	border: none;
-	color: white;
+.intro__video {
+  background-color: #fff;
+  width: 600px;
+  height: 320px;
+  margin-bottom: 185px;
 }
