@@ -8,14 +8,18 @@
 
 .features-main {
   @include wrapper;
-  padding-top: 220px;
+  padding-top: 93px;
   padding-bottom: 220px;
 }
+
 .features-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
+  &__img {
+    padding-bottom: 45px;
+  }
  }
 
 
@@ -37,5 +41,4 @@
     font-weight: 400;
     line-height: 20px;
    }
-
 }
