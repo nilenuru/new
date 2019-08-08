@@ -10,19 +10,18 @@
   line-height: 25px;
 }
   .progress__item {
+    position: relative;
+    justify-content: space-between;
     padding-top: 57px;
     padding-bottom: 57px;
     
     color: #fff;
-    background-color: #000;
     text-align: center;
   }
 
-  .color-1 {
-    background-color: #80d8ff;
-    padding-left: 200px;
-    padding-right: 114px;
-  }
+  // .color-1 {
+   
+  // }
 
   .color-2 {
     background-color: #82b1ff;
@@ -40,4 +39,12 @@
     padding-left: 173px;
     padding-right: 136px;
     background-color: #ea80fc;
+  }
+
+
+  .progress_desk {
+    background-color: #80d8ff;
+    padding-left: 200px;
+    padding-right: 114px;
+
   }
